@@ -1,0 +1,54 @@
+body {
+    color: green;
+    background: rgb(247 212 32);
+    margin: 0px;
+    font-family: "Rethink Sans", serif;
+}
+
+header {
+   border-bottom: solid 2px green;
+   margin: 20px;
+   font-size: 31px;
+   color: green;
+}
+
+.chamada {
+    background: rgb(239 46 35);
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    margin-right: 5%;
+    color: rgb(247 212 32);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.videos {
+ display: flex;
+ overflow-x: auto;
+ gap: 10px;
+} 
+
+.saibaMais {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.videos img:hover {
+    opacity: 1.0;
+    border: 1px solid blue
+}
